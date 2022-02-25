@@ -9,7 +9,7 @@ Info\: Microsoft.EntityFrameworkCore.Database.Command[0]
 
 INSERT INTO refresh_tokens (expires, refresh_token, user_id)
 
-VALUES (@p0, @p1, @p2)
+VALUES (@p0, @p1, @p2, @p3)
 
 RETURNING id;
 
